@@ -7,3 +7,8 @@ async function errorhandling() {
     return [null, error];
   }
 }
+
+async function main() {
+  const [data, error] = await errorhandling();
+  const [data2, error2] = await errorhandling();
+ }
